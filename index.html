@@ -75,7 +75,7 @@
         <div class="list-group">
           <button id="pwr_btn_1" type="button" class="list-group-item list-group-item-action power_btns">Power 1</button>
           <button id="pwr_btn_2" type="button" class="list-group-item list-group-item-action power_btns">Power 2</button>
-          <button id="pwn_btn_3" type="button" class="list-group-item list-group-item-action power_btns">Power 3</button>
+          <button id="pwr_btn_3" type="button" class="list-group-item list-group-item-action power_btns">Power 3</button>
         </div>
 
       </div>
@@ -93,17 +93,13 @@
           $("#vid1").show();
           $('#vid1').get(0).play()
         });
-      });
 
-      $(document).ready(function() { 
         $("#pwr_btn_2").click(function() {
           $(".videos").hide();
           $("#vid2").show();
           $('#vid2').get(0).play()
         });
-      });
 
-      $(document).ready(function() { 
         $("#pwr_btn_3").click(function() {
           $(".videos").hide();
           $("#vid3").show();
